@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Mon Aug  4 11:59:48 2025 as: /usr/lib/nmap/nmap --privileged -sV -oN detailed_scan.txt 192.168.28.136
+Nmap scan report for 192.168.28.136
+Host is up (0.0000050s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Apache httpd 2.4.65 ((Debian))
+9200/tcp open  ssl/http Elasticsearch REST API 7.0 or later (Shield plugin; realm: security)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug  4 12:00:09 2025 -- 1 IP address (1 host up) scanned in 21.46 seconds
